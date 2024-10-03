@@ -1,0 +1,16 @@
+API endpoints:
+cocktail par nom :   
+https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita
+
+cocktail par categorie:
+https://www.thecocktaildb.com/api/json/v1/1/filter.php?c=Ordinary_Drink
+
+cocktail detail by id:
+https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=11007
+
+liste des categories:
+https://www.thecocktaildb.com/api/json/v1/1/list.php?c=list
+
+
+
+

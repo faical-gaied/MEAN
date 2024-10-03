@@ -1,0 +1,24 @@
+
+
+
+
+1-// CREATE:Ajouter une tâche (POST)
+router.post('/ajouter', TodosController.ajouterTodos);
+POST:	http://127.0.0.1:3000/todos/ajouter (Fonction pour ajouter un todo)
+{'content':'test...','date':'12-.-03-2024'}
+
+2-// READ: Liste des tâches (GET)
+router.get('/lister', TodosController.listerTodos);
+GET:    http://127.0.0.1:3000/todos/lister (Fonction lister todos)
+
+3-// UPDATE: Modifier une tâche (PUT ou PATCH)
+router.put('/:idTodos/modifier', TodosController.modifierTodos);
+PUT:	http://127.0.0.1:3000/todos/:id/modifier (Fonction pour modifier un todo)
+
+4-// DELETE: Supprimer une tâche (DELETE)
+router.delete('/:idTodos/supprimer', TodosController.supprimerTodos);
+DELETE:	http://127.0.0.1:3000/todos/:id/supprimer (Fonction pour supprimer un todo)
+
+5-// read: get un todo by id (GET)
+router.get('/:idTodos/get', TodosController.TodoById);
+GET:	http://127.0.0.1:3000/todos/:id/get (Fonction pour get un todo)
